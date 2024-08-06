@@ -11,12 +11,12 @@ class House:
                 print(floor)
 
 
-    def gde_jil(self):
-        print ( f' Я живу в {self.name} на {self.numbers_of_floors} ' )
+    # def gde_jil(self):
+    #     print ( f' Я живу в {self.name} на {self.numbers_of_floors} ' )
     # def go_to(self):
 h1 = House('ЖК Горский', 18)
 h2 = House('Домик в деревне', 2)
-h1.gde_jil()
+# h1.gde_jil()
 h1.go_to(5)
 h2.go_to(10)
 #print(f' Я живу в {self.name} на {self.numbers_of_floors} ')
